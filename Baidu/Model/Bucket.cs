@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 namespace CloudAPI.Baidu.Model
 {
     [DebuggerDisplay("Baidu.Bucket: {Name}")]
-    class Bucket
+   public  class Bucket
     {
         //[JsonIgnore]
         //public HttpMethod Method { get; set; }

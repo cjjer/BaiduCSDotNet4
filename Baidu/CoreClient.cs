@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace CloudAPI.Baidu
 {
-    class CoreClient : CommonClient
+    public class CoreClient : CommonClient
     {
         static string GetLastPathSegment(string uri)
         {
@@ -200,7 +200,10 @@ namespace CloudAPI.Baidu
                 {
                     hr.ContentDisposition = dh;
                 }
-                hr.ContentType = head.ContentType;
+                if (head.ContentType != null)
+                {
+                    hr.ContentType = head.ContentType;
+                }
                 hr.Expires = head.Expires;
                 if (!String.IsNullOrWhiteSpace(head.Acl))
                 {
