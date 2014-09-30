@@ -10,7 +10,4 @@ API地址 http://developer.baidu.com/wiki/index.php?title=docs/cplat/stor/api
 1：创建 ，删除，列表 Bucket
 2：创建 ，删除，列表 Object
 3：创建 ，编辑  ACL
-
-我的联系方式：QQ 369987789 Email cjjer^59490.com
-
-
+ 
